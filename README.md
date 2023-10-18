@@ -1,3 +1,1 @@
-# clic
-
-# IceCream — Never use print() to debug again (Common Lisp)
+# IceCream — Never use PRINT to debug again (CL)
