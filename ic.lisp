@@ -20,11 +20,11 @@
 
 ; ITNERFACE
 
-(defmacro ic-disable ()
-    `(setf *enabled* nil))
+(defun ic-disable ()
+    (setf *enabled* nil))
 
-(defmacro ic-enable ()
-    `(setf *enabled* t))
+(defun ic-enable ()
+    (setf *enabled* t))
 
 (defmacro ic (exp)
     (with-gensyms (exp-str exp-val)
