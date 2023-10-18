@@ -5,6 +5,8 @@
 
 (in-package ic)
 
+; CONFIGURATION
+
 (defvar *enabled* t)
 
 (defvar *prefix* "ic| ")
@@ -13,9 +15,12 @@
 
 (defvar *ic-out-stream* t)
 
+; UTILS
 
 (defun to-string (exp)
     (format nil "~A" exp))
+
+; ITNERFACE
 
 (defmacro ic-disable ()
     `(setf *enabled* nil))
