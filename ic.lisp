@@ -18,7 +18,10 @@
     (format nil "~A" exp))
 
 (defmacro ic-disable ()
-    `(setf *enabled*
+    `(setf *enabled* nil))
+
+(defmacro ic-enable ()
+    `(setf *enabled* t))
 
 (defmacro ic (exp)
     (with-gensyms (exp-str exp-val)
