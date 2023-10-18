@@ -1,5 +1,3 @@
-(ql:quickload '(alexandria))
-
 (defpackage :ic
   (:use :cl :alexandria))
 
