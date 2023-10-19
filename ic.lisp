@@ -1,6 +1,3 @@
-(defpackage :ic
-  (:use :cl :alexandria))
-
 (in-package ic)
 
 ; CONFIGURATION

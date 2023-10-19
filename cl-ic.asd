@@ -4,4 +4,5 @@
     :license "MIT"
     :version "1"
     :depends-on (alexandria)
-    :components ((:file "ic")))
+    :components ((:file "package")
+                 (:file "ic")))
